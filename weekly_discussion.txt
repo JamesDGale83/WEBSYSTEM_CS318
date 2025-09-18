@@ -1,0 +1,17 @@
+week 3
+Link to your web page's url.
+https://web.dev/learn/accessibility  
+How did the website do (rating number)?
+    mobile 100  desktop 100
+Did the rating between the mobile and desktop audit vary? If so why?
+    It did not change. It was 100 each time
+Did they have a major failing? (What was it?) 
+    I fully passed
+Now actually look at the website and answer the following questions.
+
+View web page source (right click on web page and select view page source). Is it mostly semantic HTML or not? If it is how is this helping their accessibility? If it isn't how is it hindering accessibility? 
+in 4859 lines of code class= is used 689,   id= is used 29,  script links to a few pages, opening <nav> tags used 5
+Try tabbing through the website. Is there anything they should have excluded or included in tabbing.
+    Function. I can navigate up and down with the arrows, this is good, however when I hit tab I loss this feature.      First it hist a few things on top of page such as sign in and search. then it goes through all options in the hamburger menu first, and invisible to the viewer, then goes to the lighthouse ignoring that for the critic, then starts to down the page. I first thought it was just running down the page, but had to search for where it was trying to look.  So confusing to me as I don't use tabs often to judge common practice.
+ Are the image alt tags helpful (right click on image, and select inspect to see code for images)? If yes, why are the good? If they are bad, how could they be better? 
+    Did not see any images on page, linked to a different page on the sight and it did have a good description for a title of the image.
