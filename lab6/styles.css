@@ -73,19 +73,29 @@ body>main{
     
 }
 body>main>.sub_head{
-    container-type: normal inline-size ;
+    container-type: normal  ;
     align-items: center;
     text-align: center;
     background-color: aqua;
     border: solid rebeccapurple;
     margin: 1rem;
 }
-body>main>.contain1{
+body>main>.contain_half{
     display: inline-block;
-    container-type: normal inline-size ;
+    container-type:initial;
     align-items: center;
     text-align: center;
-    width: 40%;
+    width: 50%;
+    height: auto;
+    margin: 0;
+}
+
+body>main>.contain_half>.contain1{
+    display: inline-block;
+    container-type: normal  ;
+    align-items: center;
+    text-align: center;
+    width: 90%;
     height: auto;
     background-color: aqua;
     border: solid rebeccapurple;
@@ -93,13 +103,17 @@ body>main>.contain1{
 }
 body>main>.contain2{
     display: inline-block;
-    container-type: normal inline-size ;
+    container-type: normal  ;
     align-items: center;
     text-align: center;
     width: 30%;
     background-color: aqua;
     border: solid rebeccapurple;
     margin: 1rem;
+    
+}
+body>main>.contain2>img{
+    width: 100%;
 }
 body>footer{
     color: greenyellow;
