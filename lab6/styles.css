@@ -1,0 +1,111 @@
+html{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+     background-image: url(image/tessulation1.png);
+    background-repeat: repeat-x;
+    
+}
+
+h1, h2, h3, h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    text-align: center;
+}
+header{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: aqua;
+    border: solid rebeccapurple;
+    
+}
+
+nav{
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+nav>a{
+    margin: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding: 1rem;
+    background-color: gold;
+    
+    border: solid;
+    border-radius: 3rem;
+    border-color: crimson;
+    align-items: center;
+    text-align: center;
+
+}
+
+nav>a:link{
+    opacity: 100%;
+}
+
+nav>a:hover{
+    background-color: bisque;
+
+}
+
+nav>a:visited{
+    opacity: 25%;
+    text-decoration: none;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+body>main{
+    
+    background-image: url(image/tessulation2.png);
+    background-repeat:repeat;
+    background-size: auto;
+    background-position: 0;
+    display: inline-block;
+    
+    
+}
+body>main>.sub_head{
+    container-type: normal inline-size ;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    border: solid rebeccapurple;
+    margin: 1rem;
+}
+body>main>.contain1{
+    display: inline-block;
+    container-type: normal inline-size ;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    background-color: aqua;
+    border: solid rebeccapurple;
+    margin: 1rem;
+}
+body>main>.contain2{
+    display: inline-block;
+    container-type: normal inline-size ;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    background-color: aqua;
+    border: solid rebeccapurple;
+    margin: 1rem;
+}
+body>footer{
+    color: greenyellow;
+    background-color: black;
+    text-align: center;
+}
+
+
+
