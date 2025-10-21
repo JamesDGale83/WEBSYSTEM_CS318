@@ -1,3 +1,64 @@
+header{
+    display:  block;
+    align-items: center;
+    text-align: center;
+}
+header > .intro {
+    display:  inline-flex;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.flag{
+    height: 5rem;
+}
+
 #college {
     display: inline-block;
+}
+.command-containor{
+    border: .2rem solid black;
+    margin: .1rem;
+    padding: 1rem;
+ 
+}
+.command{
+    width: 100%;
+}
+.jobGroup{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr ;
+    gap: 10px;
+    
+}
+.year{
+
+}
+.job{
+    width: 60vw;
+
+}
+.skill{
+    width: 100%;
+}
+.solidworks > iframe{
+    width: 100%;
+   height: 600px;
+}
+
+.club > ifram{
+    width:743px;
+     height: 418px;
+
+}
+
+.reserachImg{
+    width: 40%;
+}
+.navy > iframe{
+
+    width: 100%;
+    height: 600px;
 }
