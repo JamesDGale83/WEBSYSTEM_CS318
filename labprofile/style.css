@@ -17,6 +17,7 @@ header > .intro {
 #college {
     display: inline-block;
 }
+
 .command-containor{
     border: .2rem solid black;
     margin: .1rem;
@@ -54,8 +55,8 @@ header > .intro {
 
 }
 
-.reserachImg{
-    width: 40%;
+.reserachImg > img {
+    width: 20vw;
 }
 .navy > iframe{
 
