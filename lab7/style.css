@@ -19,7 +19,7 @@ header{
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;/*Should be center not space-between*/
+    justify-content: center;/* updated*/ /*Should be center not space-between*/
 }
 h1{
     display: none;
@@ -55,15 +55,14 @@ main  img {
     text-shadow: 2px 2px 2px #0000008f;
     
 }
-.gallery h2{
+#gallery h2{
     background-color: rgb(245,245,245);
     color: rgb(15,15,46);
     padding: 2rem 4rem;
 }
 
 /*Delete the CSS declaration for the img below. You don't need it because we are setting the max-width on line 47.*/
-img{
-    width: 500px;}
+/*done */
 
 @media (min-width:1100px){
     nav{
@@ -81,7 +80,7 @@ img{
         padding-left: 4rem;
 
     }
-    .gallery{
+    #gallery{
         display: flex;
         flex-flow: column wrap;
         max-height: 78rem;
