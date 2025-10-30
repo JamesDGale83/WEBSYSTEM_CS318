@@ -87,11 +87,9 @@ section > img {
     max-height: 10rem;
 
 }
-#odin {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr auto ;
-}
+
+
+
 section > h3 {
     grid-row-start: 1;
     grid-row-end:2;
@@ -125,6 +123,49 @@ section > p {
 .Ragnarok  section:nth-child(5) {
     display: block;
 }
+
+@media (min-width: 800px) {
+            main {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1rem;
+            }
+            .title {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            section:nth-child(2) {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            
+
+            .Ragnarok {
+                display: block;
+            }
+        }
+
+@media (min-width: 1100px) {
+            body {
+                display: grid;
+                grid-template-columns: 20rem auto;
+                
+            }
+            header {
+                grid-column-start: 1;
+                grid-column-end:  3;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+                
+            
+            .sidenav > a {
+                display: block;
+                text-align: right;
+            }
+            
+        }
 
 
 
