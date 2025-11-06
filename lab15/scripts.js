@@ -44,3 +44,13 @@ function removeRow(e){
 	let row = button.closest('.row');
 	row.remove();
 }
+
+//dialog box
+document.addEventListener("DOMContentLoaded", function(){
+	document.querySelector('form a[href="#"]').addEventListener('click', function(){
+		document.querySelector('form dialog').classList.toggle('show');
+	});
+	document.querySelector('.close').addEventListener('click', function(){
+		document.querySelector('form dialog').classList.toggle('show');
+	});
+});
