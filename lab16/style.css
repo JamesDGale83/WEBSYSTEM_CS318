@@ -73,7 +73,7 @@ header a:hover {
     height: 6rem;
     position: absolute;
     left: 2.25rem;
-    top: 1.rem;
+    top: 1.6rem;
 
 }
 
@@ -122,7 +122,7 @@ iframe {
 }
 
 .grid h3 {
-    margin: rem;
+    margin: 1rem;
     justify-self: right;
 }
 
@@ -148,6 +148,7 @@ figcaption:hover, h3:hover {
 /*animation stuff */
 .planet {
      animation: rise 10s ease-in-out 1 forwards;
+    
 }
 
 @keyframes rise{
@@ -161,6 +162,7 @@ figcaption:hover, h3:hover {
     }
 }
 
+
 .rover::after {
     z-index: 1;
     transform-origin: center bottom;
@@ -169,14 +171,11 @@ figcaption:hover, h3:hover {
 }
 
 @keyframes rotate {
-
     from{
         transform: rotate(-5deg);
-
     }
     to{
         transform: rotate(-33deg);
-    
     }
 
     
@@ -184,14 +183,13 @@ figcaption:hover, h3:hover {
 
 .rover {
     animation: roll 3s linear 0s infinite alternate-reverse;
+    
 }
 
 @keyframes roll {
 
     from{
         left: 5%;
-        transform: rotate(0) scale(1);
-
     }
     33%{
         left: 25%;
@@ -204,9 +202,6 @@ figcaption:hover, h3:hover {
     }
     to{
         left: 90%;
-        transform: rotatex() scale(1) ;
-        
-
     }
     
 }
@@ -224,7 +219,7 @@ figcaption:hover, h3:hover {
     left: -20%;
     z-index: 1;
 
-    animation: fly 20s linear 2.3s infinite alternate-reverse;
+    animation: fly 21s linear 2.3s infinite alternate-reverse;
 }
 
 @keyframes fly {
@@ -247,14 +242,13 @@ figcaption:hover, h3:hover {
         left: 90%;
     }
     50%{
-        left: 5%;
+        left: 10%;
     }
     60%{
         left: -100%;
     }
     to{
         left: -10%;
-        transform: rotatex() scale(1) ;
     }
     
 }
