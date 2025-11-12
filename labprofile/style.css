@@ -1,15 +1,52 @@
 
 header{
+    position: sticky;
+    top: 0;
+    left: 0;
     display:  block;
     align-items: center;
     text-align: center;
+    border: solid black;
+    background-color: navy;
+    color: gold;
+    
 }
 header > .intro {
     display:  inline-flex;
     align-items: center;
     text-align: center;
     font-size: 2rem;
+    color: gold;
     
+}
+
+.contact {
+  /*
+    display: flex;
+    justify-content: space-evenly;
+    */
+    
+}
+.contact > a {
+    border: .5rem solid gold;
+    padding: .2rem;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    background-color: gold;
+    color: black;
+}
+
+nav {
+margin-top:1rem ;
+    
+}
+nav > a {
+    border: .2rem solid white;
+    padding: .1rem;
+    background-color: aqua;
+    margin-left: 1vw;
+    margin-right:1vw;
+    color: black;
 }
 .flag{
     height: 5rem;
