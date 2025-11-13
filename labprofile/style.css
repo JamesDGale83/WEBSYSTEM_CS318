@@ -1,8 +1,24 @@
+html {
+  scroll-padding-top: 15rem; /* Adjust this value to the height of your sticky header */
+}
+
+body{
+    margin: 0;
+    border: 1rem solid gold;
+
+}
+hr {
+    width: calc(100vw - 3rem);
+    color: navy;
+}
+
 
 header{
     position: sticky;
     top: 0;
     left: 0;
+    margin: 0;
+    width: 100%;
     display:  block;
     align-items: center;
     text-align: center;
