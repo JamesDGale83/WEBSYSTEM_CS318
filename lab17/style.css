@@ -1,0 +1,150 @@
+body {
+    background-color: #fdf7e5;
+    color: #3b484a;
+}
+header{
+max-height: 10vh;
+display: flex;
+justify-content: space-between;
+}
+
+header img {
+    max-height: 9vh;
+}
+
+
+nav {
+    width: 30vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+
+}
+
+nav  a {
+    color: #f0575c;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+nav  a:hover {
+    color: #f37478;
+}
+nav img {
+    max-height: 5vh;
+}
+.intro {
+    color: white;
+    background-image: url(images/background-image-2.png);
+    background-size: cover;
+
+    height: 40vh;
+}
+section h3 {
+    color: #f0575c;
+}
+
+.bakery, .coffee, .hours {
+    background-color: white;
+    box-shadow:.2rem .2rem .2rem #3b484a;
+    align-items: center;
+
+    display: grid;
+    grid-template-columns: 18% 78%;
+
+    margin: 1rem;
+}
+
+.bakery img, .coffee img, .hours img {
+    max-width: 90%;
+    align-items: center;
+}
+
+.hour_container {
+    display: grid;
+    grid-template-columns: 18ch 18ch 1fr 1fr 1fr;
+
+}
+
+.o_header {
+    background-color: #f0575c;
+    color: white;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+}
+.o_header img {
+    max-height: 5vh;
+}
+.o_header h3 {
+    color: white;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+form img {
+    max-width: 90%;
+}
+
+form .item {
+    background-color: white;
+    box-shadow:.2rem .2rem .2rem #3b484a;
+    align-items: center;
+    text-align: center;
+
+    margin: 1rem;
+    max-width: 30vw;
+
+}
+
+.ordering {
+    display: block;
+    
+}
+input[type="submit"] {
+    background-color: #f0575c;
+    color: white;
+    width: 90%;
+    border: none;
+    margin-bottom: .5rem;
+}
+
+input[type="number"] {
+    background-color: #fdf7e5;
+    border: .1rem solid #24ac92;
+    width: calc(90% - 5ch);
+    margin-bottom: .2rem;
+
+    /*
+    border: #24ac92;
+    */
+}
+
+
+
+
+footer {
+    display: grid;
+   grid-template-columns: 1fr 1fr 10vw 10vw 10vw 1fr 1fr;
+    
+    background-color: #24ac92;
+    
+    
+}
+footer a {
+   
+    
+}
+footer img {
+    height: 5vh;
+}
+
