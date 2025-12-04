@@ -12,6 +12,11 @@ header img {
     max-height: 9vh;
 }
 
+.hamburger {
+        display: none;
+    }
+
+
 
 nav {
     width: 30vw;
@@ -80,6 +85,7 @@ section h3 {
 }
 .o_header img {
     max-height: 5vh;
+    max-width: 10%;
 }
 .o_header h3 {
     color: white;
@@ -146,5 +152,59 @@ footer a {
 }
 footer img {
     height: 5vh;
+}
+
+
+@media (max-width: 800px) {
+
+    .hamburger{
+        display: block;
+        width: 40px;
+        padding: .5rem;
+    }
+
+    .hamburger hr {
+        margin: .75rem 0;
+        border: 2px solid #f0575c;
+    }
+
+    header nav {
+        display: none;
+    }
+    header nav.show {
+        display: block;
+
+    }
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    form .item {
+   
+    margin: 1rem;
+    max-width: 47vw;
+
+}
+    .bakery, .coffee, .hours {
+        
+
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .bakery img, .coffee img, .hours img {
+        max-width: 50%;
+        align-items: center;
+    }
+
+    .hour_container {
+        display: grid;
+        grid-template-columns: 18ch 18ch ;
+
+    }
+
 }
 
