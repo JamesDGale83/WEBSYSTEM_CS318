@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 71.13 80.46">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fffb10;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .1px;
+      }
+
+      .st1 {
+        fill: #fbff0e;
+      }
+    </style>
+  </defs>
+  <sodipodi:namedview id="namedview1" bordercolor="#000000" borderopacity="0.25" inkscape:current-layer="layer2" inkscape:cx="315.23749" inkscape:cy="104.48018" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="991" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:zoom="1.9477379" pagecolor="#ffffff" showguides="false"/>
+  <g id="layer2" inkscape:groupmode="layer" inkscape:label="over_image">
+    <g id="g1">
+      <path id="path7" d="M38.87,0C17.4,0,0,18.01,0,40.23c0,22.22,17.4,40.23,38.87,40.23h0c9.94,0,19.5-3.94,26.72-11.02-1.5.33-3.03.5-4.55.5-13.42,0-24.3-12.71-24.3-28.38h0c0-15.68,10.88-28.39,24.3-28.39,2.68,0,5.34.52,7.87,1.53C61.53,5.4,50.5,0,38.87,0h0Z"/>
+      <path id="path8" class="st1" d="M39.14,2.45c-20.11,0-36.42,16.85-36.42,37.64,0,20.79,16.3,37.64,36.42,37.64h0c7.97,0,15.72-2.7,22.06-7.69-.07,0-.15,0-.22,0-13.42,0-24.3-12.71-24.3-28.38h0c0-15.68,10.88-28.39,24.3-28.39h0c1.38,0,2.75.14,4.11.41-6.85-7.19-16.19-11.23-25.95-11.23Z"/>
+      <path id="path9" d="M48.16,4.42c-17.82,0-32.27,16.52-32.27,36.89h0c0,20.38,14.44,36.9,32.26,36.9h0c7.92,0,15.56-3.33,21.48-9.36-2.4.9-4.89,1.35-7.41,1.35-13.42,0-24.3-12.71-24.3-28.38,0-15.68,10.88-28.39,24.3-28.39h0c3.05,0,6.06.67,8.9,1.97-6.06-7.03-14.33-10.98-22.97-10.98Z"/>
+      <path id="path11" class="st0" d="M59.69,39.91l-1.9-6.52-6.76-2.38,6.52-1.9,2.38-6.76,1.9,6.52,6.76,2.38-6.52,1.9-2.38,6.76Z" inkscape:flatsided="false" inkscape:randomized="0" inkscape:rounded="0" sodipodi:arg1="1.5846844" sodipodi:arg2="2.3018475" sodipodi:cx="120.45213" sodipodi:cy="48.363358" sodipodi:r1="3.4582894" sodipodi:r2="1.1949117" sodipodi:sides="4" sodipodi:type="star"/>
+    </g>
+  </g>
+</svg>
